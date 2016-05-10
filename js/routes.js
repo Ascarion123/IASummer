@@ -41,12 +41,22 @@ angular.module('app.routes', [])
   })
 
   .state('menu', {
-    url: '/side-menu21',
+    url: '/menu',
     templateUrl: 'templates/menu.html',
     abstract:true
   })
 
-$urlRouterProvider.otherwise('/side-menu21/home')
+  .state('menu.june11', {
+    url: '/june11',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/june11.html',
+        controller: 'june11Ctrl'
+      }
+    }
+  })
+
+$urlRouterProvider.otherwise('/menu/home')
 
   
 

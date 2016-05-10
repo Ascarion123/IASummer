@@ -11,4 +11,8 @@ angular.module('app.controllers', [])
 .controller('scheduleCtrl', function($scope) {
 
 })
-    
+      
+.controller('june11Ctrl', function($scope) {
+
+})
+ 
