@@ -46,12 +46,52 @@ angular.module('app.routes', [])
     abstract:true
   })
 
-  .state('menu.june11', {
-    url: '/june11',
+  .state('menu.june25', {
+    url: '/june25',
     views: {
       'side-menu21': {
-        templateUrl: 'templates/june11.html',
-        controller: 'june11Ctrl'
+        templateUrl: 'templates/june25.html',
+        controller: 'june25Ctrl'
+      }
+    }
+  })
+
+  .state('menu.july9', {
+    url: '/page5',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/july9.html',
+        controller: 'july9Ctrl'
+      }
+    }
+  })
+
+  .state('menu.july23', {
+    url: '/page6',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/july23.html',
+        controller: 'july23Ctrl'
+      }
+    }
+  })
+
+  .state('menu.august6', {
+    url: '/page7',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/august6.html',
+        controller: 'august6Ctrl'
+      }
+    }
+  })
+
+  .state('menu.august20', {
+    url: '/page8',
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/august20.html',
+        controller: 'august20Ctrl'
       }
     }
   })
