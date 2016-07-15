@@ -4,3 +4,13 @@ ion-content.scroll-content {
   margin-left: auto;
   margin-right: auto;
 }
+
+p {
+  color: blue;
+}
+ion-content p {
+  color: orange;
+}
+ion-content p a {
+  color: red;
+}
