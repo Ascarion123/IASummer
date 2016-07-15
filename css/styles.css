@@ -14,7 +14,7 @@ body {
   font-size: 24px;
 }
 
-p, .button {
+p, .button.button-block {
   margin: 25px 0;
 }
 #page2 img {
