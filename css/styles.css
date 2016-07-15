@@ -11,9 +11,12 @@ p, ul, li {
 }
 
 body {
-  font-size: 20px;
+  font-size: 24px;
 }
 
-p, .button.button-block {
+p, .button {
   margin: 25px 0;
+}
+#page2 img {
+  width: 50%;
 }
