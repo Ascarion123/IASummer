@@ -13,3 +13,7 @@ p, ul, li {
 body {
   font-size: 24px;
 }
+
+p {
+  margin: 25px;
+}
