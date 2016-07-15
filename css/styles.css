@@ -7,6 +7,7 @@ ion-content.scroll-content {
 
 p, ul, li {
   line-height: 30px;
+  letter-spacing: 0.4px;
 }
 
 body {
