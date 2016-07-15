@@ -19,6 +19,5 @@ p, .button.button-block {
 }
 #page2 img {
   width: 50%;
-  float: left;
-  clear: none;
+ display: inline-block;
 }
