@@ -1,0 +1,23 @@
+ion-content.scroll-content {
+  width: 80%;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p, ul, li {
+  line-height: 30px;
+  letter-spacing: 0.4px;
+}
+
+body {
+  font-size: 24px;
+}
+
+p, .button.button-block {
+  margin: 25px 0;
+}
+#page2 img {
+  width: 49%;
+ display: inline-block;
+}
